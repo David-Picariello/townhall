@@ -1,0 +1,44 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+}
+
+/* the styles for the main content */
+main {
+	clear: left;
+}
+main h1 {
+	font-size: 150%;
+}
+main h2 {
+	font-size: 170%;
+	color:#800000;
+	margin-top: 30px;
+
+}
+main h3 {
+	font-size: 130%;
+	font-style: italic;
+	margin-top: 30px;
+
+}
+.shadow{
+	text-shadow: 2px 2px 8px #800000;
+}
+h3 a:link, section a:visited {
+    color:steelblue;
+}
+h3 a:hover, section a:active {
+	font-style: italic;
+}
+footer{	
+	text-align: center;
+}
+
+/* the styles for the footer font-style: italic; */

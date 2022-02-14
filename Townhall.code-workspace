@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../book_apps/ch03/town_hall"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "town_hall_1"
+	}
+}
