@@ -1,4 +1,5 @@
 /* the styles for the elements */
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -12,6 +13,7 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
+	
 }
 main h1 {
 	font-size: 150%;
