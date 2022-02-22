@@ -13,6 +13,8 @@ body {
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
+	width: 800px;
+
 }
 a:focus, a:hover {
 	font-style: italic;
@@ -46,11 +48,11 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* the styles for the main content */
+
 main {
-	clear: left;
-}
-main {
-	padding: 0 30px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+
 }
 main h1 {
 	font-size: 150%;
@@ -83,7 +85,13 @@ main ul {
 main li {
 	padding-bottom: .35em;
 }
-
+section{
+	width: 525px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
 /* the styles for the article */
 article {
 	padding: .5em 0;
@@ -97,7 +105,14 @@ article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
+article img{
+	float: right;
+	margin: 10px;
+	border: 1px solid black;
+	padding-bottom: 0em;
+	
 
+}
 /* the styles for the aside */
 
 aside h3 {
@@ -106,14 +121,24 @@ aside h3 {
 }
 aside img {
 	padding-bottom: 1em;
+	
+}
+h1{
+	font-style: normal;
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0;
 }
 
 /* the styles for the footer */
 footer {
 	background-color: #931420;
+	clear: right;
 }
 footer p {
 	text-align: center;
 	color: white;
 	padding: 1em 0;
+
 }
