@@ -130,7 +130,13 @@ h1{
 	padding-bottom: .25em;
 	margin: 0;
 }
-
+aside h1{
+	border: 1px double orange;
+	border-radius: 10px;
+	box-shadow: 5px 10px;
+	margin-right: 600px; 
+	margin-bottom: 20px;
+}
 /* the styles for the footer */
 footer {
 	background-color: #931420;
