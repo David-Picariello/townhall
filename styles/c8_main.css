@@ -9,10 +9,11 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 800px;
+    width: 98%;
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
+	max-width: 960px;
 }
 a:focus, a:hover {
 	font-style: italic;
@@ -40,7 +41,9 @@ header h3 {
 }
 header img {
 	float: left;
-	padding: 0 30px;
+	padding: 0 3.75%;
+	max-width: 40%;
+	min-width: 150px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
@@ -57,7 +60,7 @@ header img {
 }
 #nav_menu ul li a {
     display: block;
-    width: 160px;
+    width: 100%;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
@@ -87,9 +90,9 @@ header img {
 
 /* the styles for the section */
 section {
-	width: 525px;
+	width: 40%;
 	float: right;
-	padding: 0 20px 20px 20px;
+	padding: 0 2.5% 2.5% 2.5%;
 }
 section h1 {
 	font-size: 150%;
@@ -137,9 +140,9 @@ article img {
 
 /* the styles for the aside */
 aside {
-	width: 215px;
+	width: 30%;
 	float: right;
-	padding: 0 0 20px 20px;
+	padding: 0 0 2.5% 2.5%;
 }
 aside h2 {
 	color: #800000;
@@ -166,3 +169,46 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+@media only screen and (max-width: 900px) {
+	#nav_menu {
+        display: none;
+    }
+    #mobilemenu{
+        display: block;
+	}
+    body {
+        box-shadow: none;
+	}
+	aside h2 {
+		font-size: 85%;
+    }
+	section h1{
+		font-size: 125%;
+	}
+	section h2, aside h2{
+		font-size: 110%;
+	}
+    }
+@media only screen and (max-width: 767px) {
+	#nav_menu {
+		display: none;
+	}
+	#mobilemenu{
+		display: block;
+	}
+	header h2, header h3{
+		text-align: center;
+	}
+	header{
+		float: none;
+	}
+	section, aside{
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		padding: .5em;
+	}
+	header img {
+		max-width: 30%;
+	}
+	}

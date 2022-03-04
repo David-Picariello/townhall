@@ -5,7 +5,12 @@
 	<meta charset="utf-8">
 	<title>San Joaquin Valley Town Hall</title>
 	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="stylesheet" href="styles/c7_main.css">
+	<link rel="stylesheet" href="styles/c8_main.css">
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('#nav_menu').slicknav({prependTo:"#mobilemenu"});
+		});
+		</script>
 </head>
 
 <body>
@@ -15,7 +20,9 @@
 		<h3>Celebrating our <span class="shadow">75<sup>th</sup></span> Year</h3>
 	</header>
 	<nav id="nav_menu">
-		<ul>
+
+	<nav id="mobilemenu"></nav>
+    	<ul>
         	<li><a href="index.html" class="current">Home</a></li>
         	<li><a href="speakers.html">Speakers</a></li>
         	<li><a href="luncheons.html">Luncheons</a></li>
@@ -39,6 +46,7 @@
 			   and entertain our audience! As one or our members told us:</p>
 			<blockquote>&ldquo;Each year I give a ticket package to each of our family members. 
 			I think of it as the gift of knowledge...and that is priceless.&rdquo;</blockquote>
+			
 			<h1>Speaker of the Month</h1>
 			<article>
 				<h2>Fossil Threads in the Web of Life</h2>
@@ -50,9 +58,12 @@
 				Curator at the Utah Museum of Natural History, steps to the podium. Sampson's research 
 				has focused on the ecology and evolution of late Cretaceous dinosaurs and he has conducted 
 				fieldwork in a number of countries in Africa.</p>
-				<p><a href="speakers/c7_sampson.html">Read more.</a>&nbsp;<a href="media/sampson.mp4" target="_blank">Or play video.</a></p>
+				<p>
+					<a href="speakers/c7_sampson.html">Read more.</a>&nbsp;
+					<a href="media/sampson.mp4" target="_blank">Or play video.</a>
+				</p>
 			</article>
-
+			
 			<h2>Our Ticket Packages</h2>
 			<ul>
 				<li>Season Package: $95</li>
@@ -60,7 +71,6 @@
 				<li>Single Speaker: $25</li>
 			</ul>
 		</section>
-		
 		<aside>
 			<h2>Guest speakers</h2>
 			<h3>October<br><a href="speakers/brancaccio.html">David Brancaccio</a></h3>
