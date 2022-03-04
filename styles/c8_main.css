@@ -57,10 +57,10 @@ header img {
 }
 #nav_menu ul li {
 	float: left;
+	width: 20%;
 }
 #nav_menu ul li a {
     display: block;
-    width: 100%;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
@@ -90,7 +90,7 @@ header img {
 
 /* the styles for the section */
 section {
-	width: 40%;
+	width: 60%;
 	float: right;
 	padding: 0 2.5% 2.5% 2.5%;
 }
@@ -169,13 +169,10 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+#mobilemenu{
+	display: none;
+}
 @media only screen and (max-width: 900px) {
-	#nav_menu {
-        display: none;
-    }
-    #mobilemenu{
-        display: block;
-	}
     body {
         box-shadow: none;
 	}
@@ -188,6 +185,9 @@ footer p {
 	section h2, aside h2{
 		font-size: 110%;
 	}
+	#mobilemenu{
+        display: none;
+    }
     }
 @media only screen and (max-width: 767px) {
 	#nav_menu {
@@ -196,6 +196,9 @@ footer p {
 	#mobilemenu{
 		display: block;
 	}
+	.slicknav_menu{
+        background-color: #800000 !important;
+    }
 	header h2, header h3{
 		text-align: center;
 	}
